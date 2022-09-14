@@ -10,7 +10,8 @@ const comts = {
   one: "First commit",
   two: "Second commit",
   three: "Third commit",
-  four: "Fourth commit"
+  four: "Fourth commit",
+  six: "SIX COMMIT APP Brench"
 };
 
 console.log(answers, comts);
