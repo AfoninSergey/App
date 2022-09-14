@@ -8,5 +8,6 @@ answers[2] = prompt("Age", "");
 
 const comts = {
   one: "First commit",
-  two: "Second commit"
+  two: "Second commit",
+  three: "Third commit"
 };
