@@ -1,18 +1,20 @@
 "use strict";
+const numberOfFilms = +prompt("Сколько фильмов вы уже посмотрели?", "");
 
-const answers = [];
-
-answers[0] = prompt("Name", "");
-answers[1] = prompt("Surname", "");
-answers[2] = prompt("Age", "");
-
-const comts = {
-  one: "First commit",
-  two: "Second commit",
-  three: "Third commit",
-  four: "Fourth commit",
-  five: "Five commit AppGH",
-  six: "SIX COMMIT APP Brench"
+const personalMovieDB = {
+  count: numberOfFilms,
+  movies: {},
+  actors: {},
+  genres: [],
+  privat: false
 };
 
-console.log(answers, comts);
+const a = prompt("Один из последних просмотренных фильмов?", ""),
+      b = prompt("На сколько оцените его?", ""),
+      c = prompt("Один из последних просмотренных фильмов?", ""),
+      d =prompt("На сколько оцените его?", "");
+
+personalMovieDB.movies[a] = b;
+personalMovieDB.movies[c] = d;
+
+console.log(personalMovieDB);
