@@ -1,5 +1,28 @@
 "use strict";
+let num = 'px';
+console.log(parseFloat(num));
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 // //      *
 // //     ***
 // //    *****
@@ -20,4 +43,4 @@ for (let i = 0; i <= lines; i++) {
 }
 
 console.log(result);
-
+*/
