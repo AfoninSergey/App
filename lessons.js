@@ -1,19 +1,10 @@
 "use strict";
 
-console.log("b".charCodeAt(0));
 
 
 
 
-
-
-
-
-
-
-
-
-
+/*console.log("b".charCodeAt(0)); Проверка символа по юникоду */
 /*
 //Массивы
 const mas = [1, 15, 5, 3, 7, 30, 9, 11, 13, 17, 19, 22];
